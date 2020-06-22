@@ -30,6 +30,6 @@ Entry.prototype.getTeaser = function(body) {
     return teaser.join(' ');
   } else {
     teaser = teaser.slice(0, 8);
-    return teaser.join(' ');
+    return teaser.join(' ') + '...';
   }
 };

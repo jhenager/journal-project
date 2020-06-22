@@ -11,7 +11,7 @@
     <form id="journal">
       <div class="form-group">
         <label for="title">Title:</label>
-        <input id="title" class="form-control" type="text">
+        <input class="title" class="form-control" type="text">
       </div>
       <div class="form-group">
         <label for="body">Body:</label>
@@ -22,7 +22,10 @@
     <div id="output">
       <p>Number of words: <span class="words"></span></p>
       <p>Number of letters: <span class="letters"></span></p>
-      <p>Teaser: <span class="teaser"></span></p>
+      <p>Title: <span class="title"></span></p>
+      <span class="teaser"></span>
+      <button id="expand" type="click" class="btn">Show full Journal Entry</button>
+      <button id="hide" type="click" class="btn">Reduce</button>
     </div>
   </div>
 </body>
