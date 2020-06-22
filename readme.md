@@ -1,4 +1,4 @@
-# _{Application Name}_
+# _Journal Webpage_
 
 #### _{Brief description of application}, {Date of current version}_
 
@@ -10,17 +10,42 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _The program should 
+* _The program should allow users to enter text in a form.
     - Input Example: 
     - Output Example: 
 
-* _The program should 
+* _The program should allow users to enter a title and body in two separate forms.
     - Input Example: 
     - Output Example: 
 
-* _The program should 
+* _The program should allow the user to submit the entry, with a button.
     - Input Example: 
     - Output Example: 
+
+* _The program should return the number of words in a user's entry.
+    - Input Example: The quick brown fox
+    - Output Example: 4 words
+
+* _The program should return the number of letters in a user's entry
+    - Input Example: The quick brown fox
+    - Output Example: 16 letters
+
+* _The program should display the title of a submitted entry.
+    - Input Example: 
+    - Output Example: 
+
+* _The program should display the number of words and letters in a submitted entry for the user to view.
+    - Input Example: Submit
+    - Output Example: 4 words, 16 letters
+
+* _The program should display the first sentence (up to 8 words) of a submitted entry.
+    - Input Example: 
+    - Output Example: 
+
+* _The program should display the entry in its entirety, if the title is clicked.
+    - Input Example: 
+    - Output Example: 
+
 
 
 
