@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "journal",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -9,7 +9,7 @@
     "lint": "eslint src/*.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "James Henager, Ben White",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "3.0.0",
