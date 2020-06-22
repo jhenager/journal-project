@@ -1,0 +1,12 @@
+#journal {
+  margin: auto;
+  width: 75%;
+}
+
+#body {
+  height: 300px;
+}
+
+#output {
+  display: none;
+}
