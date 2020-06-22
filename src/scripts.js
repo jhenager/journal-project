@@ -22,3 +22,14 @@ Entry.prototype.letterCount = function(body) {
   });
   return count;
 };
+
+Entry.prototype.getTeaser = function(body) {
+  const teaserArray = body.split(".");
+  let teaser = teaserArray[0].split(" ");
+  if (teaser.length <= 8) {
+    return teaser.join(' ');
+  } else {
+    teaser = teaser.slice(0, 8);
+    return teaser.join(' ');
+  }
+};

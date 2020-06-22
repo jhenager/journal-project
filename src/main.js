@@ -12,8 +12,11 @@ $(document).ready(function(){
     let entry1 = new Entry(title1Input, body1Input);
     let entry1WordCount = entry1.wordCount(body1Input);
     let entry1LetterCount = entry1.letterCount(body1Input);
+    let teaserResult = entry1.getTeaser(body1Input);
+    console.log(teaserResult);
     $(".words").text(entry1WordCount);
     $(".letters").text(entry1LetterCount);
+    $(".teaser").text(teaserResult);
     $("#output").show();
 
   });
